@@ -1,0 +1,14 @@
+{
+  "shows": [
+    {
+      "title": "Ampel-Berlin",
+      "poster": "ampel.jpg",
+      "imagesId": "1"
+    },
+    {
+      "title": "To Sara",
+      "poster": "to-sara.jpg",
+      "imagesId": "2"
+    }
+  ]
+}
