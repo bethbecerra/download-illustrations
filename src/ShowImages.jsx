@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
+import './ShowImages.css';
+//Images
+import toSara from './img/sara_hist.jpg';
+import saraWall from './img/sarawall.jpg';
 import ampel from './img/ampel.jpg';
-import toSara from './img/to-sara.jpg';
-import toys from './img/toys.jpg';
 
-const Poster = function(props) {
-  return (
-    <div className="Images">
-      <img className="download-img" alt={`dowland-${props.title}`} src={props.src} />
-    </div>
-  );
-};
+const Poster = props => (
+  <div className="Images">
+    <img className={`img-${props.className}`} alt={`dowland-${props.title}`} src={props.src} />
+  </div>
+);
 
 class ShowImages extends Component {
   render() {
     return (
       <div>
-        <Poster title="ampel" src={ampel} />
-        <Poster title="to-sara" src={toSara} />
-        <Poster title="toys" src={toys} />
+        <Poster className="movil" title="to-sara-movil" src={toSara} />
+        <Poster className="wall" title="to-sara" src={saraWall} />
+        <Poster className="movil" title="ampel-movil" src={ampel} />
       </div>
     );
   }

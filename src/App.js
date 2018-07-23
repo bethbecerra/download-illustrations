@@ -7,9 +7,19 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">LoL</h1>
+          <h1 className="App-title">
+            <span>
+              <i class="em em-whale2" />
+            </span>
+            Holi!
+          </h1>
         </header>
         <div>{<Images />}</div>
+        <footer>
+          <a className="Contact-instagram" href="https://www.instagram.com/beth_becerra/">
+            Free download by @beth_becerra
+          </a>
+        </footer>
       </div>
     );
   }

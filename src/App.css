@@ -6,11 +6,14 @@
   background-color: #ffd039;
   padding: 1px;
   color: white;
+  vertical-align: middle;
 }
 
 .App-title {
-  font-size: 1, 5em;
+  font-size: 2em;
   font-family: 'Gaegu';
+  margin-bottom: 1px;
+  margin-left: -5%;
 }
 
 .App-intro {
@@ -24,4 +27,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.em {
+  height: 0.7em;
+}
+
+.Contact-instagram {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: #75601a;
+  padding-bottom: 1em;
 }
