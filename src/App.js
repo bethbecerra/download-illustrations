@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">
             <span>
-              <i class="em em-whale2" />
+              <i className="em em-whale2" />
             </span>
             Holi!
           </h1>

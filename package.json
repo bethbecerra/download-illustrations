@@ -2,6 +2,10 @@
   "name": "beth_becerra",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.11.1"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -12,5 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "style-loader": "^0.21.0"
   }
 }
