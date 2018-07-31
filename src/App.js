@@ -28,7 +28,7 @@ class App extends Component {
             Creative Commons Attribution-NoDerivatives 4.0 International License
           </a>
           {'  '}
-          | Create by <a href="https://www.instagram.com/beth_becerra/">@beth_becerra</a>
+          | Created by <a href="https://www.instagram.com/beth_becerra/">@beth_becerra</a>
         </footer>
       </div>
     );
