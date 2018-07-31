@@ -33,9 +33,17 @@
   height: 0.7em;
 }
 
-.Contact-instagram {
+footer {
   font-size: 0.7em;
-  text-decoration: none;
   color: #75601a;
-  padding-bottom: 1em;
+}
+a {
+  font-size: 0.99em;
+  color: #75601a;
+  text-decoration: none;
+}
+
+.img_license {
+  height: 2em;
+  padding: 1em;
 }
